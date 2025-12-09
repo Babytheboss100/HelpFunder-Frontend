@@ -1,0 +1,41 @@
+.profile-page {
+  min-height: 100vh;
+  padding: 6rem 0;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.alert {
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.success-panel {
+  background: rgba(0, 255, 65, 0.1);
+  border: 2px solid var(--color-circuit-green);
+  color: var(--color-circuit-green);
+}
+
+.profile-sections {
+  display: grid;
+  gap: 3rem;
+}
+
+.profile-section {
+  background: var(--color-panel);
+  border: 2px solid var(--color-border);
+  padding: 3rem;
+  clip-path: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px);
+}
+
+.profile-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--color-border);
+}
